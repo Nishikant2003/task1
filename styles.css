@@ -1,0 +1,43 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#ffffcc;
+}
+.title{
+    background-color: maroon;
+    color:#ffffcc;
+    text-align:center;
+    border-bottom: solid red 20px;
+    font-style: italic;
+    letter-spacing: 10px;
+}
+
+h3{
+    background-color: green;
+    color:white;
+    padding-left: 15px;
+}
+
+#hero-sub-text{
+    font-style: italic;
+    text-transform: uppercase;
+}
+.ul-list{
+    color:red;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}
+.google-logo{
+    border:dotted #cccccc 4px;
+}
+
+table{
+    background-color:#cccccc;
+}
+#comments{
+    overflow-y: scroll;
+    resize: none;
+    
+}
