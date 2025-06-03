@@ -1,20 +1,25 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:20px;
+    margin-right:20px;
+    font-family: 'Arial','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color:#ffffcc;
 }
 .title{
+    padding:5px;
     background-color: maroon;
     color:#ffffcc;
     text-align:center;
-    border-bottom: solid red 20px;
+    border-bottom: solid #cc0000 15px ;
     font-style: italic;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
 }
 
-h3{
-    background-color: green;
+h2{
+    background-color: #009900;
     color:white;
     padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 #hero-sub-text{
@@ -22,7 +27,7 @@ h3{
     text-transform: uppercase;
 }
 .ul-list{
-    color:red;
+    color:#a0130f;
     font-style: italic;
 }
 
@@ -30,7 +35,7 @@ a{
     text-decoration: none;
 }
 .google-logo{
-    border:dotted #cccccc 4px;
+    border:dashed #cccccc 2px ;
 }
 
 table{
@@ -39,5 +44,11 @@ table{
 #comments{
     overflow-y: scroll;
     resize: none;
-    
+    width: 200px;
+}
+.fbtn{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-top: 4px;
 }
